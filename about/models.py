@@ -3,7 +3,9 @@ from cloudinary.models import CloudinaryField
 
 # Create your models here.
 
-
+"""
+About model - to store information about the site owner
+"""
 class About(models.Model):
     title = models.CharField(max_length=200)
     updated_on = models.DateTimeField(auto_now=True)
